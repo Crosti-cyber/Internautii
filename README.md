@@ -1,2 +1,3 @@
 # Tutle 
-Chestie first test
+Discutia social dintre doua persoane...
+Determination a new charpter.
