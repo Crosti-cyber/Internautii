@@ -3,6 +3,7 @@ s = turtle.Screen()
 s.setup(width=1000,height=1000)
 turtle.title("Lipsa de Comunicare")
 tr = turtle.Turtle()
+s.bgcolor("pink")
 def RombContur(sx,sy):
     def trstart(offx,offy):
         tr.pu()
@@ -54,14 +55,16 @@ def FacialFeatures(sx,sy,dir):
     elif (dir == 2):
         trstart(0,0)
         tr.dot(15)
-        trstart(20,-90)
+        trstart(10,-90)
         tr.circle(-100,35)
 def Coarda1(r):
+    tr.pencolor("white")
     tr.circle(r,-104)
     tr.right(180)
     tr.right(90)
     tr.speed(7)
 def Coarda2(r):
+    tr.pencolor("white")
     tr.pu()
     tr.goto(165,-85)
     tr.pd()
